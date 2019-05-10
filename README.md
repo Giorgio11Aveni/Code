@@ -1,8 +1,11 @@
 # Code
 
-Egregio prof La Rosa, ho caricato il file aggiornato dell'esercitazione "Alberghi" di cui avevamo discusso martedí al suo 
-ricevimento. Ho aggiornato la funzione "inizializza" aggiungendo il parsing, ma non so se in modo corretto. 
-Ho aggiornato anche le funzioni stampa_s e stampa_s_s aggiungendo alla condizione del controllo la funzione strcmp come mi 
-aveva suggerito.
-La ringrazione per il tempo dedicatomi e le auguro una buona serata.
+Egregio prof La Rosa, ho ricaricato i file aggiornati seguendo le istruzioni che mi aveva inviato per email. le modifiche che ho apportato al codice sono:
+-Sostituire fgets con fscanf per semplici motivi pratici, mi sono trovato meglio con fscanf.
+-Nella funzione di inserimento ho notto che non riuscivo a inserire correttamente i dati perche la fscanf non accetta frasi con parole separate da spazi, quindi ho utilizato [^\n].
+-Ho preferito far diventare void le funzioni di ricerca perche riflettendocci un attimo su ho capito che alla fine non vanno a modificare la lista nel main, ma si occupano di stampare a video solamente le informazioni che soddisfano una determinata condizione.
+-Ho ridotto l'uso dei puntatori nelle funzioni di ricerca.
+
+Ho provato a compilare il codice e funziona tutto come dovrebbe, tranne per le due funzioni di ricerca che mi danno sempre come risultato che il servizio che st andando a ricercare non esiste.
+
 Giorgio Aveni.
