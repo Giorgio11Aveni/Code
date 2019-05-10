@@ -1,0 +1,6 @@
+Hotel delle palme/t(*****)	3	garage ristorante giardino
+Vecchio_Mulino/t(**)	3	ristorante garage giardino
+Olimpia/t(**)	0	(nessuno)
+Ambasciatori/t(***)	 5	televisione bagno_in_camera giardino ristorante frigo_bar
+Posta/t(****)	2	garage giardino
+Miramonti/t(****)	3	televisione garage aria_condizionata
